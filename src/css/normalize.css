@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1rem;
+}
+span{
+    font-size: 1rem;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+}
+li{
+    list-style: none;
+}
+input, textarea{
+    padding: 10px;
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    font-size: 1rem;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}

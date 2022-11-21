@@ -106,7 +106,7 @@ $(function () {
         event.preventDefault();
 
         if (details[0].value != '' && details[1].value != '' && details[2].value != '' && details[3].value != '') {
-            fetch('./contact.json', {
+            fetch('./data/contact.json', {
                 method: 'POST',
                 
                 headers: {
